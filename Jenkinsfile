@@ -17,5 +17,10 @@ pipeline {
                 echo "We are Deploying to UAT"
             }
         }
+        stage("Deploy to production) {
+            steps {
+                echo "We are Deploying to production"
+            }
+        }
     }
 }
